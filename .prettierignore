@@ -1,0 +1,4 @@
+/.envrc
+/.eslintrc.cjs
+/node_modules
+/tasks.sh
