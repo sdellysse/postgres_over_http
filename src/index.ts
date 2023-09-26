@@ -132,3 +132,6 @@ fastifyApp.post(
     return await reply.code(202);
   }
 );
+
+await fastifyApp.listen(env().HTTP_PORT);
+fastifyApp.log.info(`HTTP API running on http://localhost:${env().HTTP_PORT}`);
